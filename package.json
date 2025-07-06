@@ -1,0 +1,24 @@
+{
+    "name": "@deadcode-uk/mutatio",
+    "version": "0.1.0",
+    "bin": {
+        "mutatio": "index.js"
+    },
+    "type": "module",
+    "license": "MIT",
+    "files": [
+        "index.js",
+        "license.md",
+        "readme.md"
+    ],
+    "peerDependencies": {
+        "@libsql/client": "*",
+        "dotenv": "*"
+    },
+    "devDependencies": {
+        "@libsql/client": "^0",
+        "@types/node": "^22",
+        "dotenv": "^17",
+        "prettier": "^3"
+    }
+}
