@@ -1,11 +1,14 @@
 {
     "name": "@deadcode-uk/mutatio",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "bin": {
         "mutatio": "index.js"
     },
     "type": "module",
     "license": "MIT",
+    "repository": {
+        "url": "git+https://github.com/simon-robertson/deadcode-mutatio.git"
+    },
     "files": [
         "index.js",
         "license.md",
