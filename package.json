@@ -1,14 +1,15 @@
 {
     "name": "@deadcode-uk/mutatio",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "bin": {
         "mutatio": "index.js"
     },
     "type": "module",
     "license": "MIT",
     "repository": {
-        "url": "git+https://github.com/simon-robertson/deadcode-mutatio.git"
+        "url": "git+https://github.com/deadcode-uk/deadcode-mutatio.git"
     },
+    "keywords": ["node","libsql","migrations"],
     "files": [
         "index.js",
         "license.md",
