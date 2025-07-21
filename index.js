@@ -108,7 +108,7 @@ async function applyMigrations() {
         "SELECT collection FROM migrations ORDER BY collection DESC LIMIT 1"
     )
 
-    if (result.rows > 0) {
+    if (result.rows.length > 0) {
         collection = result.rows[0].collection + 1
     }
 
