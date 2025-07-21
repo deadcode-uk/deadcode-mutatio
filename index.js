@@ -13,7 +13,7 @@ const migrationTemplate = `
  * @returns {Promise<void>}
  */
 export async function apply(client) {
-    //
+    await client.execute()
 }
 
 /**
@@ -21,7 +21,7 @@ export async function apply(client) {
  * @returns {Promise<void>}
  */
 export async function revert(client) {
-    //
+    await client.execute()
 }
 `
 
